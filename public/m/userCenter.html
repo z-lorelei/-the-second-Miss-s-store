@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>二小姐的个人中心页面</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="lib/mui/css/mui.min.css">
+    <!--<link rel="stylesheet" href="lib/fontAwesome/css/font-awesome.css">-->
+    <link rel="stylesheet" href="lib/fontAwesome/css/font-awesome.css">
+    <link rel="stylesheet/less" href="./less/userCenter.less">
+    <script src="./lib/less/less.js"></script>
+</head>
+<body>
+<div id="header">
+    <h3>个人中心</h3>
+    <a href="search.html" class="fa fa-search"></a>
+</div>
+<div id="main">
+    <ul class="mui-table-view">
+        <li class="mui-table-view-cell">
+            <a class="mui-navigate-right">
+                <img src="./images/user.jpg" alt="" class="userIcon">
+                <p>1</p>
+                <span>绑定手机<span>111111111</span></span>
+            </a>
+        </li>
+        <li class="mui-table-view-cell">
+            <a class="mui-navigate-right">账户与安全</a>
+        </li>
+        <li class="mui-table-view-cell">
+            <a class="mui-navigate-right">我的购物车</a>
+        </li>
+        <li class="mui-table-view-cell">
+            <a class="mui-navigate-right">收货地址管理</a>
+        </li>
+    </ul>
+    <div><a href="#">退出登陆</a></div>
+    
+</div>
+<div id="footer">
+    <div class="mui-row">
+        <div class="mui-col-xs-3"><a href="index.html"><i class="fa fa-home"></i><span>首页</span></a></div>
+        <div class="mui-col-xs-3"><a href="cate.html"><i class="fa fa-bars"></i><span>分类</span></a></div>
+        <div class="mui-col-xs-3"><a href="cart.html"><i class="fa fa-shopping-cart"></i><span>购物车</span></a></div>
+        <div class="mui-col-xs-3 active"><a href="userCenter.html"><i class="fa fa-user"></i><span>个人中心</span></a></div>
+    </div>
+</div>
+<script src='./lib/mui/js/mui.min.js'></script>
+<script src="./lib/zepto/zepto.min.js"></script>
+<script src='./lib/artTemplate/template.js'></script>
+<script src='./js/userCenter.js'></script>
+</body>
+</html>

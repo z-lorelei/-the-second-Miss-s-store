@@ -1,0 +1,52 @@
+@import "base.less";
+#main {
+  padding: 45px 0;
+  height: 100%;
+
+  .cate-left{
+    width: 100px;
+    float: left;
+    >li{
+      border:1px solid #ccc;
+      border-top: none;
+      >a{
+        background-color: #fff;
+        line-height: 40px;
+        display: block;
+        height: 40px;
+        width: 100px;
+        text-align: center;
+        font-size: 14px;
+      }
+      &.active{
+        >a{
+          background-color: #ccc;
+        }
+      }
+    }
+  }
+  .cate-right{
+    position: relative;
+    height: 100%;
+    margin-left: 100px;
+    .mui-scroll{
+      height: 101%;
+    }
+    .mui-row{
+      padding: 10px 0 0 10px;
+      >div{
+        background-color: #fff;
+        >a{
+          display: block;
+          text-align: center;
+          >img{
+            width: 100%;
+          }
+          >p{
+
+          }
+        }
+      }
+    }
+  }
+}
